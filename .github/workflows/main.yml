@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: actions/javascript-action@v1.1
+      uses: actions/javascript-action@v1
       with:
         who-to-greet: 'Sailesh the Ghost'
     # Use the output from the `hello` step
